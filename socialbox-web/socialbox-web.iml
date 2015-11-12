@@ -27,5 +27,66 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="jersey-server-2.22.1" level="project" />
+    <orderEntry type="library" exported="" name="jersey-container-servlet-core-2.22.1" level="project" />
+    <orderEntry type="library" exported="" name="gson-2.4" level="project" />
+    <orderEntry type="library" exported="" name="sqlite-jdbc-3.8.11.2" level="project" />
+    <orderEntry type="library" exported="" name="jetty-client-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="jetty-deploy-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="jetty-jmx-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="jetty-plus-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="jetty-annotations-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="jetty-util-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="jetty-jaspi-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="jetty-jndi-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="jetty-rewrite-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="jetty-servlets-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="jetty-quickstart-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="websocket-servlet-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="javax-websocket-server-impl-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="websocket-client-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="jetty-alpn-client-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="http2-server-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="http2-client-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="javax.websocket-api-1.0" level="project" />
+    <orderEntry type="library" exported="" name="javax.servlet-api-3.1.0" level="project" />
+    <orderEntry type="library" exported="" name="javax.mail.glassfish-1.4.1.v201005082020" level="project" />
+    <orderEntry type="library" exported="" name="slf4j-api-1.6.6" level="project" />
+    <orderEntry type="library" exported="" name="jersey-common-2.22.1" level="project" />
+    <orderEntry type="library" exported="" name="jersey-client-2.22.1" level="project" />
+    <orderEntry type="library" exported="" name="javax.ws.rs-api-2.0.1" level="project" />
+    <orderEntry type="library" exported="" name="jersey-media-jaxb-2.22.1" level="project" />
+    <orderEntry type="library" exported="" name="javax.annotation-api-1.2" level="project" />
+    <orderEntry type="library" exported="" name="hk2-api-2.4.0-b31" level="project" />
+    <orderEntry type="library" exported="" name="javax.inject-2.4.0-b31" level="project" />
+    <orderEntry type="library" exported="" name="hk2-locator-2.4.0-b31" level="project" />
+    <orderEntry type="library" exported="" name="validation-api-1.1.0.Final" level="project" />
+    <orderEntry type="library" exported="" name="jetty-http-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="jetty-io-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="jetty-webapp-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="jetty-xml-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="asm-5.0.1" level="project" />
+    <orderEntry type="library" exported="" name="asm-commons-5.0.1" level="project" />
+    <orderEntry type="library" exported="" name="jetty-security-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="javax.security.auth.message-1.0.0.v201108011116" level="project" />
+    <orderEntry type="library" exported="" name="jetty-server-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="jetty-continuation-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="javax.transaction-api-1.2" level="project" />
+    <orderEntry type="library" exported="" name="websocket-api-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="javax-websocket-client-impl-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="websocket-server-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="websocket-common-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="http2-common-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="javax.activation-1.1.0.v201105071233" level="project" />
+    <orderEntry type="library" exported="" name="jersey-guava-2.22.1" level="project" />
+    <orderEntry type="library" exported="" name="osgi-resource-locator-1.0.1" level="project" />
+    <orderEntry type="library" exported="" name="hk2-utils-2.4.0-b31" level="project" />
+    <orderEntry type="library" exported="" name="aopalliance-repackaged-2.4.0-b31" level="project" />
+    <orderEntry type="library" exported="" name="javassist-3.18.1-GA" level="project" />
+    <orderEntry type="library" exported="" name="jetty-servlet-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="asm-tree-5.0.1" level="project" />
+    <orderEntry type="library" exported="" name="http2-hpack-9.3.6.v20151106" level="project" />
+    <orderEntry type="library" exported="" name="javax.inject-1" level="project" />
+    <orderEntry type="library" exported="" name="socialbox-web.socialbox-web" level="project" />
   </component>
 </module>
