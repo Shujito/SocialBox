@@ -6,4 +6,5 @@ dependencies {
 	compile 'org.glassfish.jersey.containers:jersey-container-servlet-core:2.22.1'
 	compile 'com.google.code.gson:gson:2.4'
 	compile 'org.xerial:sqlite-jdbc:3.8.11.2'
+	compile 'de.neuland-bfi:jade4j:1.0.6'
 }
