@@ -37,7 +37,7 @@ public class Application {
 		resourceHandler.setResourceBase("public");
 		// servlets
 		ServletContextHandler servletContextHandler = new ServletContextHandler(server, "/", ServletContextHandler.SESSIONS);
-		//servletContextHandler.setErrorHandler(new ControllerErrorHandler());
+		servletContextHandler.setErrorHandler(new ControllerErrorHandler());
 		ServletHolder servletHolder = servletContextHandler.addServlet(ServletContainer.class, "/*");
 		servletHolder.setInitOrder(0);
 		servletHolder.setInitParameter(ServerProperties.PROVIDER_PACKAGES, "org.shujito.socialbox.controllers");

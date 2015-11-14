@@ -1,17 +1,18 @@
-doctype html
-html
-	head
-		title A title
-		link(href="/css/materialize.min.css",rel="stylesheet")
-		meta(name='viewport' content='width=device-width, initial-scale=1, user-scalable=no')
-	body
-		.container
-			h3.header.center.red-text Header!
+.container
+	h5.header.center.red-text Welcome!
+	.row
+		form.col.s12.m6.offset-m3(action='/login' method='post')
 			.row
-				.col.s6.m4.l3
-					.card
-						.card-content
-							span.card-title Some title.
-							p Read this now please.
-		script(src="/js/jquery-2.1.4.min.js")
-		script(src="/js/materialize.min.js")
+				.input-field.col.s12
+					label(for='email') Email
+					input(maxlength='100',type='email',name='email')
+				.input-field.col.s12
+					label(for='password') Password
+					input(maxlength='100',type='password',name='password')
+				button.btn.waves-effect.col.s6 Access
+//- footer.page-footer
+	.container
+		.row
+			.col.s12
+				h5.white-text I don't have an account!
+				p.white-text: a.grey-text.text-lighten-3(href='/signin') Go here
