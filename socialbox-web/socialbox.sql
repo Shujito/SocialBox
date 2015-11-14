@@ -6,12 +6,16 @@ create table users (
 	check (length(username) >= 2 and length(username) <= 24)
 );
 
+@@
+
 create table user_passwords (
 	user_id integer not null on conflict fail,
 	password_hash blob not null on conflict fail,
 	password_salt blob not null on conflict fail,
 	foreign key(user_id) references users(_id)
 );
+
+@@
 
 create table sessions (
 	user_id integer not null on conflict fail,
