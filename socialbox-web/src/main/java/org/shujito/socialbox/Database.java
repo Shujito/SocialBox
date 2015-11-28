@@ -38,7 +38,9 @@ public class Database {
 			StringBuilder builder = new StringBuilder();
 			String line;
 			while ((line = bufferedReader.readLine()) != null) {
-				builder.append(line);
+				if (!line.startsWith("--")) {
+					builder.append(line);
+				}
 			}
 			return builder.toString();
 		}

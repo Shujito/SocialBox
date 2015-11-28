@@ -1,6 +1,7 @@
 package org.shujito.socialbox.controllers;
 
 import org.shujito.socialbox.Template;
+import org.shujito.socialbox.models.User;
 
 import javax.inject.Singleton;
 import javax.ws.rs.Consumes;
@@ -34,6 +35,7 @@ public class SignInController {
 		@FormParam("password") String password,
 		@FormParam("confirm") String confirm
 	) throws Exception {
+		User user = new User(email, username, username);
 		return Response.ok(Template.render("signin.jade")).build();
 		//throw new WebException("username:" + username, Response.Status.NOT_IMPLEMENTED.getStatusCode());
 	}

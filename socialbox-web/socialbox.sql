@@ -1,12 +1,13 @@
 create table users (
 	_id integer primary key on conflict replace autoincrement,
+	created_at integer not null on conflict ignore default (cast(((julianday('now') - julianday('1970-01-01')) * 86400000) as integer)),
+	updated_at integer not null on conflict ignore default (cast(((julianday('now') - julianday('1970-01-01')) * 86400000) as integer)),
+	deleted_at integer,
 	email text not null on conflict fail unique on conflict fail,
 	username text not null on conflict fail unique on conflict fail,
 	display_name text not null on conflict fail,
 	check (length(username) >= 2 and length(username) <= 24)
 );
-
-@@
 
 create table user_passwords (
 	user_id integer not null on conflict fail,
@@ -14,8 +15,6 @@ create table user_passwords (
 	password_salt blob not null on conflict fail,
 	foreign key(user_id) references users(_id)
 );
-
-@@
 
 create table sessions (
 	user_id integer not null on conflict fail,

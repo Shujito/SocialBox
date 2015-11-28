@@ -1,1 +1,1 @@
-include ':socialbox-app', ':socialbox-web'
+include ':socialbox-web', ':socialbox-app'
